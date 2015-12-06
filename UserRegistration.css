@@ -1,0 +1,54 @@
+/*
+Name: UserRegistration.css
+	Path: Root/project2/UserRegistration.css
+	Version: 1
+	Function : This is a supplementary stylesheet for UserRegistration specific 
+	elements that is used in combination with HomePage.css
+*/
+
+label.error{
+	color: red; 
+	padding: 0em; 
+	margin-left: 1em; 
+	margin-top: 1em; 
+	border: 2px solid red;
+	display: inline-table; 
+}
+
+.navbutton{
+	border: 2px solid red; 
+	background-color: black; 
+	color: white; 
+	padding: 0.75em; 
+}
+
+
+#buttongroup{
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 35%; 
+}
+#submit{
+	background-color: black; 
+	border: 2px solid blue; 
+	color: white; 
+	padding: 0.75em;
+	margin: 3em; 
+}
+.section{
+padding: 3em; 
+margin-right: 3em; 
+margin-left: 3em; 
+margin-top: 3em;
+text-align: center; 
+}
+.cardlabel{
+	text-align: justify; 
+}
+li{
+	list-style-type: none; 
+}
+#commentlabel{ text-align: justify;}
+label{
+padding: 1em;
+}

@@ -1,0 +1,102 @@
+﻿/*
+	Name: HomePage.css
+	Path: Root/project2/HomePage.css
+	Version: 3
+	Function : This stylesheet is used for each page in the entire site and
+	contains style information for the logo and fieldsets
+	
+	7/2/15////Version 2 Notes: The borders were changed to to rounded to improve the look and feel. A new logo is being used. 
+
+	7/12/2015///Version 3 Notes: Tweaked the footer display. 
+*/
+
+body{
+font-family: Courier New; 
+}
+hr{
+margin-left: auto; 
+margin-right: auto; 
+width: 90%;
+margin-top: 0em;
+}
+
+#title{ 
+font-size: 100pt; 
+margin-left: auto; 
+margin-right: auto; 
+width: 90%; 
+}
+#logo{
+margin-left: auto; 
+margin-right: auto; 
+width: 50%; 
+max-width: 1152px;
+max-height: 325px;
+}
+
+#outerfield{
+margin-left: 6em; 
+margin-right: 6em; 
+margin-bottom: 6em; 
+background-color: black;
+opacity: .9; 
+border: 2px solid red; 
+border-radius: 0px 40px 40px 0px; 
+}
+
+#nav_bar{
+	margin-left: 6em; 
+	margin-right: 6em;
+}
+#nav_bar a{
+	color: black; 
+}
+#nav_bar li{
+	border-right: 2px solid black;
+	display: inline; 
+	padding: 0.5em; 
+	font-weight: bold;
+	font-size: 1.50em;
+}
+
+#login{
+	text-align: right; 
+	margin-right: 5%;
+}
+#login a{
+color: white; 
+text-decoration: none; 
+}
+/*#login li{
+	border: 2px solid white;
+	display: inline; 
+	padding: 0.5em; 
+}*/
+#comm_list li{ color: white; display: block; border: none;  }
+#comm_list a{border: 3px solid white; padding: 1.25em; padding-top: .75em; padding-bottom: .75em; border-radius: 40px 40px 40px 40px; font-weight: bold; }
+#comm_list p{font-size: 1.25em;}
+#innerfield{
+margin-left: auto; 
+margin-right: auto; 
+margin-top: 2em;
+border: 2px inset blue; 
+background-color: white;
+width: 90%;
+border-radius: 40px 0px 0px 40px; 
+}
+h2{
+	font-size: 2.25em;
+	text-align: center; 
+}
+#innerfield img{
+	border: 2px ridge black; 
+}
+#present{
+	font-size: 1.5em; 
+	text-align:center; 
+}
+
+#globalpic{ max-width: 1500px;  max-height: 30%;  margin-left: auto; margin-right: auto; width: 90%; } 
+#infringe{ color:white; list-style-type: none; } #infringe li{display: inline; margin-left: 1em; margin-right: 2em;}
+
+#contributors{ text-indent: 5em; display: inline; list-style-type: none; } h3{ color: white; text-decoration: underline; }

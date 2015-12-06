@@ -1,0 +1,129 @@
+﻿/*
+	Name: Products.css
+	Path: Root/project2/Products.css
+	Version: 1
+	Function : An additional stylesheet for elements that are specific to the Products.php
+	page that are used in combination with HomePage.css
+*/
+
+#productform{
+	color: black; 
+}
+#category
+{	
+	display: block; 
+	height: 20%; 
+	vertical-align: top; 
+}
+#category a{
+	color: black; 
+}
+	#c1{
+		width: 40%; 
+		float: left; 
+		text-align: left; 
+	}	
+		#cycle{/* name=catselect */
+			border: none; 
+			text-align: center; 
+		}
+		#cycleleft{
+			font-size: 1.25em; 
+		}
+		#cycleright{
+			font-size: 1.25em;
+		}
+	#c2{
+		float: right; 
+		width: 50%; 
+ 
+	}
+	#productsearch{
+		font-size: 2em; 
+	}
+	#listproducts{
+		font-size: .60em;
+	}
+	#c3{
+		  
+	}
+
+
+#product
+{
+	display: block; 
+	height: 60%; 
+	border: 2px solid black; 
+}
+#product a{ color: black; }
+	#p1{/* product name */
+		
+		text-align: center; 
+	}
+	#pclass{/*center product div */
+	 
+	
+	}
+	#p2{/* product description */
+	
+		float: left; 
+	}
+	#p3{/* productimage and options*/
+		width: 100%; 
+		float: left; 
+	}
+		#currentproduct{
+			margin-left: 5em;
+			margin-bottom: 3em; 
+			max-width: 400px; 
+			max-height: 400px; 
+			width:200px;
+			height: 200px; 
+			float: left
+		}
+		.pclass{ 
+			margin-left: 3em; 
+			margin-right: 6em;
+			}
+		#addcart{
+			text-align: right; 
+			float: right; 
+		}
+	#p4{
+		 
+	}
+		#dosage{
+			
+		}
+		.dosage{
+			display: inline-table; 
+		}
+		
+#thumbs
+{
+	height: 20%; 
+	vertical-align: bottom; 
+}
+.thumbs{
+	height: 50px; 
+	width: 50px;
+}
+#thumbs a{color: black;}
+	#t1{/* thumbnails */
+		float: left; 
+		vertical-align: bottom;
+		width: 80%; 
+		
+	}
+	#t1 img{
+		border: 2px solid black; 
+		margin: 1em; 
+	}
+	#t1 img:hover{
+		border: 2px solid red;  
+	}
+	#t2{/* cart */
+		float: right; 
+		width: 20%; 
+		vertical-align: bottom;
+	}
